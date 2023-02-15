@@ -13,5 +13,7 @@ def test_subtract():
 
 def test_multify():
     assert cal.multify(0,10) == 0
+    assert cal.multify(3,2) == 6
+
 
 
