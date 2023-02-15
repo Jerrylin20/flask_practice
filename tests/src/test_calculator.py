@@ -1,20 +1,7 @@
-class Calculator():
+from app.src.calculator import Calculator
 
-    def add(self,num1,num2):
-        return num1+num2
-    def subtract(self,num1,num2):
-        return num1-num2
-    def multiply(self,num1,num2):
-        return num1*num2
-    def divide(self,num1,num2):
-        if num2 == 0:
-            return 0
-        return num1 / num2
+cal = Calculator()
 
-if __name__ == "__main__":
-    calculator = Calculator()
-    print(calculator.add(1,3))	
-    print(calculator.subtract(5,2))
-    print(calculator.multiply(2,4))
-    print(calculator.divide(10,0))
-    print(calculator.divide(10,2))
+def test_add():
+    assert cal.add(1,1) == 2
+    assert cal.add(2,2) == 4

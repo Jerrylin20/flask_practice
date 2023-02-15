@@ -1,6 +1,6 @@
-from src.calculator import Calculator
+#from app.src.calculator import Calculator
 
-cal = Calculator()
+#cal = Calculator()
 
-print(cal.add(1,5))
+#print(cal.add(1,5))
 
