@@ -5,3 +5,6 @@ cal = Calculator()
 def test_add():
     assert cal.add(1,1) == 2
     assert cal.add(2,2) == 4
+
+def test_subtract():
+    assert cal.subtract(19,1) == 18
